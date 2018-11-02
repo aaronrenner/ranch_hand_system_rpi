@@ -145,4 +145,8 @@ the Linux kernel to avoid any issues. Unfortunately, none of these are tagged by
 the Raspberry Pi Foundation so I either attempt to match what's in Raspbian or
 take versions of the repositories that have similar commit times.
 
+## Ranchhand firmware modifications
+
+1. Enable Serial drivers for Arduino. Go to `Device Drivers -> USB Support -> USB Serial Converter Support` and enable `USB Generic Serial Driver` and `USB CP210x family of UART Bridge Controllers`.
+
 [Image credit](#fritzing): This image is from the [Fritzing](http://fritzing.org/home/) parts library.
